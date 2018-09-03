@@ -1,6 +1,6 @@
 # Laravel Log to Slack Channel 
 
-By incoming callback - https://api.slack.com/incoming-webhooks
+via incoming callback - https://api.slack.com/incoming-webhooks
 
 ![2018-09-03 5 22 26](https://user-images.githubusercontent.com/7960232/44979003-8e2ff000-af9e-11e8-8e79-dea34d930cb7.png)
 
