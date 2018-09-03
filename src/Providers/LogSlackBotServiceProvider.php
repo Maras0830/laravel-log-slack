@@ -2,7 +2,7 @@
 
 namespace Maras0830\LogSlack\Providers;
 
-use App\Listeners\LogSlackBotListener;
+use Maras0830\LogSlack\Listeners\LogSlackBotListener;
 use Illuminate\Log\Events\MessageLogged;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
