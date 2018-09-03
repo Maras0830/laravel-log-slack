@@ -6,8 +6,7 @@
  * Time: 下午1:02
  */
 
-namespace App;
-
+namespace Maras0830\LogSlack;
 
 use Illuminate\Notifications\Notifiable;
 

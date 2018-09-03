@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Notifications;
+namespace Maras0830\LogSlack\\Notifications;
 
 use Illuminate\Notifications\Messages\SlackMessage;
 use Illuminate\Notifications\Notifiable;
@@ -47,8 +47,9 @@ class SendLogToSlack extends Notification
             'Level' => $this->event->level
         ];
 
-        foreach ($this->event->context as $key => $message)
+        foreach ($this->event->context as $key => $message) {
             $message_bag['message_' . $key] = $message;
+        }
 
         return (new SlackMessage)
             ->{$levels[$this->event->level]}()

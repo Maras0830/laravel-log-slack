@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Listeners;
+namespace Maras0830\LogSlack\Listeners;
 
 use App\Notifications\SendLogToSlack;
 use App\SlackBot;

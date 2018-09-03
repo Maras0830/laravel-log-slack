@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Maras0830\LogSlack\Providers;
 
 use App\Listeners\LogSlackBotListener;
 use Illuminate\Log\Events\MessageLogged;
