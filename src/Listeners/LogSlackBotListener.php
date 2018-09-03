@@ -2,7 +2,7 @@
 
 namespace Maras0830\LogSlack\Listeners;
 
-use Maras0830\LogSlack\SendLogToSlack;
+use Maras0830\LogSlack\Notifications\SendLogToSlack;
 use Maras0830\LogSlack\SlackBot;
 use Illuminate\Support\Facades\Notification;
 
