@@ -1,6 +1,6 @@
 <?php
 
-namespace Maras0830\LogSlack\\Notifications;
+namespace Maras0830\LogSlack\Notifications;
 
 use Illuminate\Notifications\Messages\SlackMessage;
 use Illuminate\Notifications\Notifiable;
