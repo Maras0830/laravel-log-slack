@@ -12,6 +12,7 @@
         "php": ">=5.4.0",
         "illuminate/support": "^5.1.0"
     },
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Maras0830\\LogSlack\\": "src"
