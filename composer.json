@@ -1,5 +1,5 @@
 {
-    "name": "maras0830/laravel-LogSlack",
+    "name": "maras0830/laravel-logslack",
     "description": "Send logs to slack channel.",
     "type": "library",
     "authors": [
