@@ -1,0 +1,12 @@
+{
+    "name": "maras/laravel-log-slack",
+    "description": "Send logs to slack channel.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Maras0830",
+            "email": "Maras0830@gmail.com"
+        }
+    ],
+    "require": {}
+}
