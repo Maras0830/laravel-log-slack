@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Maras0830\LogSlack\Providers\LogSlackBotServiceProvider::class"
+                "Maras0830\\LogSlack\\Providers\\LogSlackBotServiceProvider::class"
             ]
         }
     }
