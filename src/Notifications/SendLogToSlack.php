@@ -42,7 +42,7 @@ class SendLogToSlack extends Notification
         $levels = $this->getLevels();
 
         $message_bag = [
-            'isProduction' => env('APP_ENV') == 'production'
+            'Environment' => env('APP_ENV'),
             'Title' => $this->event->message,
             'Time' => date('Y-m-d H:i:s', time()),
             'Level' => $this->event->level
