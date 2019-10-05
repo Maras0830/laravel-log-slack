@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Maras0830\\LaravelSRT\\Providers\\LaravelSRTProvider"
+                "Maras0830\\LogSlack\\Providers\\LogSlackBotServiceProvider"
             ]
         }
     }
