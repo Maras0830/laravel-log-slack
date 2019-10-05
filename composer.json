@@ -17,5 +17,12 @@
         "psr-4": {
             "Maras0830\\LogSlack\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maras0830\LogSlack\Providers\LogSlackBotServiceProvider::class"
+            ]
+        }
     }
 }
