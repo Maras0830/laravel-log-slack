@@ -25,6 +25,12 @@ SLACK_LOG_LEVEL=success,warning,error
 SLACK_LOG_CALLBACK_URL=<slack_incoming_callback_url>
 ```
 
+if your laravel version >= 5.8, install laravel/slack-notification-channel
+
+```bash
+$ composer require laravel/slack-notification-channel
+```
+
 
 ## Example
 
