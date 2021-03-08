@@ -26,6 +26,9 @@ class LogSlackBotListener
      */
     public function handle($event)
     {
+        if (in_array(env('APP_ENV'), ['testing', 'local']))
+            return;
+        
         Notification::send(new SlackBot(), new SendLogToSlack($event));
     }
 }
