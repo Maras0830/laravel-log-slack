@@ -25,7 +25,7 @@ class SendLogToSlack extends Notification
     {
         $levels = $this->getLevels();
 
-        $explode_levels = explode(',', strtolower(env('SLACK_LOG_LEVEL')));
+        $explode_levels = explode(',', strtolower(env('SLACK_LOG_LEVEL', 'success')));
 
         if (isset($levels[$this->event->level]) && in_array($levels[$this->event->level], $explode_levels)) {
             return ['slack'];
